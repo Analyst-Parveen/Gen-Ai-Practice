@@ -1,0 +1,20 @@
+from langchain_core.prompts import PromptTemplate
+template=PromptTemplate(
+    template='''Please Summarize the research paper titled {paper_input} with the following specification.
+Explanation style: {style_input}
+Explanation length: {length_input}
+
+Mathmatical details:
+include relevant mathmatical equations if presents in the paper.
+explain the mathmatical concept using simple,intutive code where applicable.
+
+Analogies:
+use relatable analogies to simplyfy complex ideas.
+if certain information is not available in the paper,respond with:insufficent information "variable" instead of guessing.
+
+Ensure summary is clear accurate ,and aligned with the provide style and length.''',
+input_variables=['paper_input','style_input','length_input']
+
+)
+
+template.save('template.json')
