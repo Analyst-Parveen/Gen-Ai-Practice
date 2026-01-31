@@ -1,0 +1,43 @@
+# Langchain core
+langchain
+langchain-core
+langchain-community
+# pypdf-loader
+pypdf
+# selinum loader and webbase loader
+requests
+beautifulsoup4
+selenium
+webdriver-manager
+unstructured
+#---------
+
+
+# openAI integration
+langchain-openai
+openai
+# Anthropic-integration(claude)
+langchain-anthropic
+#Google Gemini(palm) integration
+langchain-google-genai
+google-generativeai
+# Hugging Face Integration
+langchain-huggingface
+transformers
+huggingface-hub
+# Enviorment Variable Management
+python-dotenv
+# Machine Learning Utility
+scikit-learn
+# pytorch
+torch
+# sentence transformer--
+sentence-transformers
+# streamlit lib
+streamlit
+# for chain graphs
+grandalf
+# vector_stores
+chromadb
+# retriever
+wikipedia
